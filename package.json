@@ -1,0 +1,45 @@
+{
+  "name": "ntfy.sh",
+  "version": "1.0.0",
+  "description": "A client for Ntfy.sh in Node.js",
+  "main": "dist/Ntfy.js",
+  "scripts": {
+    "build": "rimraf ./dist && tsc",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@types/eventsource": "^1.1.15",
+    "eventsource": "^3.0.2",
+    "axios": "^1.7.9"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.6",
+    "typescript": "^5.7.3",
+    "rimraf": "^6.0.1"
+  },
+  "keywords": [
+    "ntfy",
+    "ntfy.sh",
+    "notification",
+    "notifications",
+    "push-notification",
+    "client",
+    "node",
+    "nodejs",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Filonzi Jacopo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacopofilonzi/Ntfy.JS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jacopofilonzi/Ntfy.JS/issues"
+  },
+  "homepage": "https://github.com/jacopofilonzi/Ntfy.JS#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
